@@ -1,0 +1,78 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Estilos para el formulario */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Estilos para la tabla */
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilos para el botón de Reset */
+  button[type="button"] {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilos adicionales para el select de Priority */
+  #priority-filter {
+    width: 100px;
+  }
+  
+  /* Estilos adicionales para el select de Status */
+  #status-filter {
+    width: 120px;
+  }
+  
+  /* Estilos adicionales para el select de Customer satisfaction */
+  #customer-satisfaction-filter {
+    width: 150px;
+  }
+  

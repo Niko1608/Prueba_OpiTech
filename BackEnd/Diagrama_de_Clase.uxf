@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>550</y><w>320</w><h>100</h></coordinates><panel_attributes>Usuario
+--
+- Usuario: string
+- Clave: int
+- FechaRegistro: date
+--
++ ValidacionUsuario(): Bool</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>320</y><w>320</w><h>150</h></coordinates><panel_attributes>Cliente
+--
+- Nombre: string
+- Id: int
+- Edad: int
+- Ciudad: string
+- TelefonoContacto: int
+- Preferencias (): string
+--
++ TipoViaje: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>460</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>100</y><w>320</w><h>150</h></coordinates><panel_attributes>Reserva
+--
+- Origen: string
+- Destino: string
+- FechaViaje: date
+- NumeroPasajeros: int
+- Disponibilidad: bool
+--
++ TipoCliente(): string
++ MetodoPago(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>240</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>0</y><w>310</w><h>150</h></coordinates><panel_attributes>Detalles de la reserva
+--
+- NumeroReserva: int
+- Hora: date
+- CostoXPersona: float
+- Subtotal: float
+- Sescuento: float
+- EstadoReserva: bool
+--
++ CalcularPrecio(): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>50</y><w>280</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10;260;10</additional_attributes></element></diagram>

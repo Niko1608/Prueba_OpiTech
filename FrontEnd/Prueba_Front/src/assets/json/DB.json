@@ -1,0 +1,109 @@
+[
+    {
+      "userName": "Juan García",
+      "subject": "Problem with delivery",
+      "customerSatisfaction": 2,
+      "priority": "Medium",
+      "status": "Closed"
+    },
+    {
+      "userName": "Ana López",
+      "subject": "Issue with account",
+      "customerSatisfaction": 4,
+      "priority": "High",
+      "status": "Solved"
+    },
+    {
+      "userName": "María Hernández",
+      "subject": "Billing inquiry",
+      "customerSatisfaction": 1,
+      "priority": "Low",
+      "status": "Pending"
+    },
+    {
+      "userName": "Luis Gómez",
+      "subject": "Technical support needed",
+      "customerSatisfaction": 3,
+      "priority": "Medium",
+      "status": "Open"
+    },
+    {
+      "userName": "Laura Pérez",
+      "subject": "Product feature request",
+      "customerSatisfaction": 5,
+      "priority": "Low",
+      "status": "Closed"
+    },
+    {
+      "userName": "Carlos Fernández",
+      "subject": "Complaint about service",
+      "customerSatisfaction": 0,
+      "priority": "High",
+      "status": "Pending"
+    },
+    {
+      "userName": "Miguel Sánchez",
+      "subject": "Problem with product",
+      "customerSatisfaction": 2,
+      "priority": "High",
+      "status": "Closed"
+    },
+    {
+      "userName": "Carla Martínez",
+      "subject": "Website error",
+      "customerSatisfaction": 5,
+      "priority": "Medium",
+      "status": "Solved"
+    },
+    {
+      "userName": "David Ortiz",
+      "subject": "Product defect",
+      "customerSatisfaction": 4,
+      "priority": "Low",
+      "status": "Open"
+    },
+    {
+      "userName": "Paula Rodríguez",
+      "subject": "Order cancellation",
+      "customerSatisfaction": 1,
+      "priority": "High",
+      "status": "Pending"
+    },
+    {
+      "userName": "Javier Gutiérrez",
+      "subject": "Technical issue",
+      "customerSatisfaction": 3,
+      "priority": "Medium",
+      "status": "Solved"
+    },
+    {
+      "userName": "Juan García",
+      "subject": "Problem with account",
+      "customerSatisfaction": 0,
+      "priority": "High",
+      "status": "Open"
+    },
+    {
+      "userName": "Ana López",
+      "subject": "Issue with delivery",
+      "customerSatisfaction": 5,
+      "priority": "Low",
+      "status": "Closed"
+    },
+    {
+      "userName": "María Hernández",
+      "subject": "Billing issue",
+      "customerSatisfaction": 4,
+      "priority": "High",
+      "status": "Solved"
+    },
+    {
+      "userName": "Luis Gómez",
+      "subject": "Technical problem",
+      "customerSatisfaction": 2,
+      "priority": "Low",
+      "status": "Pending"
+    }
+]
+  
+  
